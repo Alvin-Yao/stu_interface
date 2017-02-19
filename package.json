@@ -1,0 +1,22 @@
+{
+  "name": "stu_interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc & npm run lite ",
+    "tsc": "tsc",
+    "lite": "lite-server"
+  },
+  "author": "Alvin",
+  "license": "TESTDEMO",
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.2"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "systemjs": "^0.20.9",
+    "traceur": "0.0.111"
+  }
+}

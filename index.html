@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<script src="cp1/index.js"></script>
+<script src="node_modules/systemjs/dist/system.src.js"></script>
+<script>
+    System.import('./cp1/index.js').catch(function(err){ console.error(err); });
+</script>
+<h1>调试界面，请打开控制台查看输出结果</h1>
+</body>
+</html>
