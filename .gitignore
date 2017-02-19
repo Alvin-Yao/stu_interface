@@ -1,7 +1,5 @@
 /node_modules/
-/typings/
-/app/*.js
-*.map
-/app/**.js
+/cp1/*.js
+/cp1/*.map
 *.log
 /.idea/
