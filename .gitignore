@@ -1,5 +1,5 @@
 /node_modules/
 /cp1/*.js
-/cp1/*.map
+*.map
 *.log
 /.idea/

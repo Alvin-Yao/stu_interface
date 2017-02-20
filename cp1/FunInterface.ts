@@ -4,3 +4,10 @@
 export interface FunInterface {
     (info: string): void
 }
+/**
+ * interface for attribute
+ */
+export interface AttributeInterface{
+    name?: string,
+    age: number
+}
