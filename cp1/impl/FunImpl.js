@@ -25,4 +25,16 @@ var AttributeImpl = (function () {
     return AttributeImpl;
 }());
 exports.AttributeImpl = AttributeImpl;
+var IndexableImpl = (function () {
+    function IndexableImpl() {
+        this.fun = function (arr) {
+            return arr[0];
+        };
+        this.stringIndexFun = function (arr, proName) {
+            return arr[proName];
+        };
+    }
+    return IndexableImpl;
+}());
+exports.IndexableImpl = IndexableImpl;
 //# sourceMappingURL=FunImpl.js.map

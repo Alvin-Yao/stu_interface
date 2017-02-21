@@ -11,3 +11,11 @@ export interface AttributeInterface{
     name?: string,
     age: number
 }
+
+export interface IndexableInterace {
+    [index: number] : string;
+}
+
+export interface StringIndexArrayInterface {
+    [index: string] : string;
+}
